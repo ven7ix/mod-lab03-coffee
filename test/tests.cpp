@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 #include "Automata.h"
 
-TEST() {
+TEST(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
