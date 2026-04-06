@@ -29,4 +29,5 @@ int main() {
 	std::cout << automata.get_state() << std::endl;
 	automata.check();
 	std::cout << automata.get_state() << std::endl;
+	return 0;
 }
