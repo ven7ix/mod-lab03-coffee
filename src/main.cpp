@@ -1,7 +1,7 @@
 ﻿#include "Automata.h"
 #include <iostream>
 
-void main() {
+int main() {
 	Automata automata;
 
 	std::cout << automata.get_state() << std::endl;
