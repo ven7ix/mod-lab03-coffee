@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "Automata.h"
 
-TEST(test_suite_name, test_name) {
+TEST0(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -10,7 +10,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ("WAIT", automata.get_state());
 }
 
-TEST(test_suite_name, test_name) {
+TEST1(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -20,7 +20,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ("WAIT", automata.get_state());
 }
 
-TEST(test_suite_name, test_name) {
+TEST2(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -31,7 +31,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ("CHECK", automata.get_state());
 }
 
-TEST(test_suite_name, test_name) {
+TEST3(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -42,7 +42,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ("ACCEPT", automata.get_state());
 }
 
-TEST(test_suite_name, test_name) {
+TEST4(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -54,7 +54,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ("WAIT", automata.get_state());
 }
 
-TEST(test_suite_name, test_name) {
+TEST5(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -64,7 +64,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ(10, automata.get_cash());
 }
 
-TEST(test_suite_name, test_name) {
+TEST6(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -75,7 +75,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ(10, automata.get_cash());
 }
 
-TEST(test_suite_name, test_name) {
+TEST7(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -85,7 +85,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ(10, automata.get_cash());
 }
 
-TEST(test_suite_name, test_name) {
+TEST8(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
@@ -96,7 +96,7 @@ TEST(test_suite_name, test_name) {
 	EXPECT_EQ(false, automata.check());
 }
 
-TEST(test_suite_name, test_name) {
+TEST9(test_suite_name, test_name) {
 	Automata automata;
 	std::cout << automata.get_state() << std::endl;
 
