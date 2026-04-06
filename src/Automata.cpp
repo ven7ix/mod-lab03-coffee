@@ -20,6 +20,10 @@ std::string Automata::get_state() {
 	}
 }
 
+double Automata::get_cash() const {
+	return cash;
+}
+
 void Automata::on() {
 	switch (state) {
 	case OFF:
