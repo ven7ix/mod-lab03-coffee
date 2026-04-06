@@ -27,6 +27,7 @@ public:
 	void cook();
 	void finish();
 	std::string get_state();
+	double get_cash() const;
 private:
 	AUTOMATA_STATES state = OFF;
 	double cash = 0;
