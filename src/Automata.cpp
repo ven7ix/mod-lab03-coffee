@@ -1,4 +1,4 @@
-// Copyright 2025 Andrew
+// Copyright 2026 Andrew
 
 #include "Automata.h"
 
