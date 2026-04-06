@@ -2,3 +2,12 @@
 
 #include <gtest/gtest.h>
 #include "Automata.h"
+
+TEST() {
+	Automata automata;
+	std::cout << automata.get_state() << std::endl;
+
+	automata.on();
+
+	EXPECT_EQ("WAIT", automata.get_state());
+}
