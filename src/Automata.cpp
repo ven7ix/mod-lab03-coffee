@@ -8,7 +8,7 @@ std::string Automata::get_state() {
 	case OFF:
 		return "OFF";
 	case WAIT:
-		return "WAITING";
+		return "WAIT";
 	case ACCEPT:
 		return "ACCEPT";
 	case CHECK:
